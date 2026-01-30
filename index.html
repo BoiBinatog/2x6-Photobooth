@@ -134,7 +134,7 @@
     
     
     <div class="strip-container">
-      <img src="2x6.png" alt="Photo Frame" class="strip-frame"> 
+      <img src="5rIcons.png" alt="Photo Frame" class="strip-frame"> 
       <div class="photos" id="photo-strip">
           <img id="slot1" alt="Photo 1">
           <img id="slot2" alt="Photo 2">
@@ -181,7 +181,7 @@
     })
     .catch(err => console.error("Camera error:", err));
 
-    // ✅ helper to crop like object-fit: cover
+    //  helper to crop like object-fit: cover
     function drawCover(ctx, img, dx, dy, dWidth, dHeight) {
       const imgRatio = img.width / img.height;
       const boxRatio = dWidth / dHeight;
@@ -286,7 +286,7 @@
       frame.src = "Pwu2x6.png";
   
       let stars = new Image();
-      stars.src = "5rIcons.png";
+      stars.src = "PwuIcons.png";
   
       frame.onload = () => {
         stars.onload = () => {
@@ -345,3 +345,4 @@
 </body>
 
 </html>
+
