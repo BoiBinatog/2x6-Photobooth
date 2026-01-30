@@ -309,12 +309,7 @@
   
                 loaded++;
                 if (loaded === totalLoads) {
-                  fctx.drawImage(stars, 0, 0, stripWidth, stripHeight);         
-                  fctx.drawImage(stars, stripWidth, 0, stripWidth, stripHeight); 
-  
-                  fctx.fillStyle = "#888";
-                  fctx.fillRect(stripWidth - 1, 0, 2, stripHeight);
-  
+                  fctx.drawImage(stars, 0, 0, stripWidth, stripHeight);  
                   callback();
                 }
               };
@@ -343,6 +338,7 @@
 </body>
 
 </html>
+
 
 
 
