@@ -290,8 +290,8 @@
         stars.onload = () => {
           let totalLoads = capturedImages.length * 2;
           let loaded = 0;
-  
-          for (let s = 0; s < 2; s++) {
+  // Number of Photos s < number
+          for (let s = 0; s < 1; s++) {
             let xOffset = s * stripWidth;
             fctx.drawImage(frame, xOffset, 0, stripWidth, stripHeight);
   
@@ -343,5 +343,6 @@
 </body>
 
 </html>
+
 
 
